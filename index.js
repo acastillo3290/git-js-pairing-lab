@@ -34,4 +34,14 @@ const untilNum = (num) => {
 const multiply = (num1, num2) => {
   console.log(num1 * num2);
 };
-console.log(multiply(3, 7.5));
+// console.log(multiply(3, 7.5));
+
+const add = (num1, num2) => {
+  if (num1 != num2) {
+    return num1 + num2;
+  } else if (num1 == num2) {
+    return num1 * 3;
+  }
+};
+
+console.log(add(2, 6));
