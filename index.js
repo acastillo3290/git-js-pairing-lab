@@ -29,4 +29,9 @@ const untilNum = (num) => {
   }
 };
 
-console.log(untilNum(10));
+//console.log(untilNum(10));
+
+const multiply = (num1, num2) => {
+  console.log(num1 * num2);
+};
+console.log(multiply(3, 7.5));
